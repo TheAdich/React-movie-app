@@ -1,0 +1,74 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+body{
+    width:100%;
+    height:100vh;
+}
+.movie-poster-overlay{
+    width:80%;
+    height:100vh;
+    margin:0px auto;
+    margin-top:2vh;
+    position: relative;
+}
+.movie-poster-background{
+    width: 100%;
+    height:75%;
+}
+.movie-poster-background img{
+    width:100%;
+    height:100%;
+    opacity: 0.68;
+}
+
+.movie-inside-poster-overlay{
+    width:100%;
+    height:55%;
+    display: flex;
+    position: absolute;
+    top:45vh;
+    left:3vw;
+}
+.movie-poster-small-background{
+    width:75%;
+    height:90%;
+    border:1px solid transparent;
+    border-radius:4px;
+    box-shadow: 3px 3px 4px #ddd;
+}
+.movie-poster-small-background img{
+    width: 100%;
+    height:100%;
+    border:1px solid transparent;
+    border-radius:4px;
+}
+.movie-details{
+    margin-left:2vw;
+}
+.movie-title{
+    font-size: calc(1rem + 1.4vh);
+    font-family: 'Open Sans', sans-serif;
+}
+.movie-title,.movie-genre{
+    margin-bottom:1vw;
+}
+
+.movie-overviews h3{
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom:10px;
+}
+.movie-overviews {
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    top:4%;
+}
+.styles{
+    font-family: 'Nunito', sans-serif;
+}

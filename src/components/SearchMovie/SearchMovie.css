@@ -1,0 +1,37 @@
+
+.movie-card{
+    width:40vh;
+    height:50vh;
+    margin:10px;
+    border:1px solid white;
+    border-radius:5px;
+    position: relative;
+}
+
+.movie-image-container{
+    width:100%;
+    height:100%;
+}
+
+.movie-image-container img{
+    width:100%;
+    height:100%;
+    border-radius: 5px;
+}
+.movie-card-details{
+    position: absolute;
+    padding:10px;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    border-radius: 5px;
+    background: black;
+}
+.movie-title{
+    font-size: calc(10px + 1vh);
+}
+
+a:last-child{
+    align-items: flex-start;
+}
